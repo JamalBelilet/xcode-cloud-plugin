@@ -1,10 +1,11 @@
 {
-  "name": "xcode-cloud-plugin",
+  "name": "xcode-cloud",
   "owner": {
     "name": "Jamal Belilet"
   },
   "metadata": {
-    "description": "Apple Xcode Cloud CI/CD integration for Claude Code"
+    "description": "Apple Xcode Cloud CI/CD integration for Claude Code",
+    "version": "1.0.0"
   },
   "plugins": [
     {
