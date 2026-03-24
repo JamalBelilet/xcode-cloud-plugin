@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "xcode-cloud": {
+      "command": "npx",
+      "args": ["-y", "xcode-cloud@latest"]
+    }
+  }
+}

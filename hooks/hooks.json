@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "prompt",
+        "matcher": "start_build|retry_build|update_workflow|delete_workflow|delete_ci_product",
+        "prompt": "IMPORTANT: You are about to use a tool that modifies Xcode Cloud state. Before proceeding, briefly confirm the action with the user by describing what will happen. For delete operations, emphasize that this is irreversible."
+      }
+    ]
+  }
+}

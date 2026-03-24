@@ -1,0 +1,24 @@
+{
+  "name": "xcode-cloud-plugin",
+  "owner": {
+    "name": "Jamal Belilet"
+  },
+  "metadata": {
+    "description": "Apple Xcode Cloud CI/CD integration for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "xcode-cloud",
+      "source": "./",
+      "description": "Apple Xcode Cloud CI/CD integration. Monitor builds, diagnose failures, trigger workflows, and manage your iOS/macOS CI pipeline.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jamal Belilet"
+      },
+      "homepage": "https://github.com/JamalBelilet/xcode-cloud-plugin",
+      "license": "MIT",
+      "keywords": ["xcode-cloud", "apple", "ci-cd", "ios", "macos", "swift", "xcode"],
+      "category": "external-integrations"
+    }
+  ]
+}

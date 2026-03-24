@@ -1,0 +1,40 @@
+{
+  "name": "xcode-cloud",
+  "version": "1.0.0",
+  "description": "MCP server for Apple Xcode Cloud CI/CD via App Store Connect API",
+  "type": "module",
+  "bin": {
+    "xcode-cloud": "./dist/index.js"
+  },
+  "homepage": "https://github.com/JamalBelilet/xcode-cloud-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamalBelilet/xcode-cloud-plugin"
+  },
+  "license": "MIT",
+  "files": ["dist"],
+  "keywords": ["xcode-cloud", "apple", "ci-cd", "ios", "macos", "swift", "mcp", "claude-code-plugin"],
+  "scripts": {
+    "build": "tsc --noEmit && node esbuild.config.js",
+    "prepublishOnly": "npm run build",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.27.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
