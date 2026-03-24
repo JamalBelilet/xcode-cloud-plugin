@@ -29,7 +29,7 @@ The plugin provides 21 MCP tools across 6 API categories, 7 skills for guided wo
 
 ```shell
 /plugin marketplace add JamalBelilet/xcode-cloud-plugin
-/plugin install xcode-cloud@jamalbelilet-xcode-cloud-plugin
+/plugin install xcode-cloud@jamalbelilet-xcode-cloud
 ```
 
 ## Setup
